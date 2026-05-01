@@ -100,9 +100,7 @@ public class SecurityConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(Arrays.asList(
             "http://localhost:5173",
-            "https://learnhub.netlify.app",
-            "https://learnhub-staging.netlify.app",
-            "https://learnhub-demo.netlify.app"
+            "https://fsadproject-frontend1.onrender.com/"
         ));
         config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type", "*"));
